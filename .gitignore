@@ -1,0 +1,46 @@
+# 忽略Models目录及其内容
+Models/Qwen/
+
+# 忽略Finetune输出目录及其内容
+Finetune/output/
+
+# 忽略日志文件
+Finetune/swanlog/
+
+# 忽略Python缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# 忽略IDE相关文件
+.vscode/
+.idea/
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略Jupyter Notebook检查点
+.ipynb_checkpoints/
+
+# 忽略虚拟环境
+venv/
+env/
+.venv/
+.env/
+
+# 忽略日志文件
+*.log
+
+# 忽略临时文件
+*.tmp
+*.temp
+
+# 忽略锁文件
+*.lock
+
+# 忽略其他大型文件夹
+Models/._____temp/
