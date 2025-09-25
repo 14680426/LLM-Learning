@@ -10,7 +10,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
 # 模型用于生成文本，是因果语言模型(Causal Language Model)
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
-    torch_dtype="auto",  # 自动选择合适的数据类型以优化性能
+    dtype="auto",  # 自动选择合适的数据类型以优化性能
     device_map="cuda:0",  # 指定使用GPU设备进行计算，提高推理速度
     trust_remote_code=True  # 信任并允许执行模型中的自定义代码
 )
